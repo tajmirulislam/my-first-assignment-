@@ -7,12 +7,19 @@
     font-style: normal;
     font-variation-settings:
     "wdth" 100;
+    background-color: rgb(245, 238, 238);
+    width: auto;
   }
 
   /* Share Styles */
 
   .text-center{
     text-align: center;
+  }
+
+  .section-title{
+    font-size: 32px;
+    font-weight: 800;
   }
 
   /* Header */
@@ -103,6 +110,10 @@ h1{
 
 }
 
+h2{
+  font-size: 32px;
+}
+
 p{
   font-weight: 400;
   font-size: 16px;
@@ -142,3 +153,112 @@ main section{
   height: 40px;
   width: 100px;
 }
+
+/* My Inspiration Styles */
+
+
+
+.Inspiretion-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+
+.video{
+  
+  margin: 48px 0px;
+  border-radius: 16px;
+  border: 2px solid rgb(250, 249, 248);
+  border-width: 70px;
+  box-shadow: #f56804;
+}
+
+iframe{
+  border-radius: 16px;
+  border-width: 5px;
+}
+
+/* .video{
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+
+iframe{
+  align-items: center;
+} */
+
+
+/* Skill Description Styles */
+
+
+.skills-container{
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 111px 0px;
+
+}
+
+
+.skill-1{
+  padding: 40px;
+  border-radius: 16px;
+  background: #e233070d;
+}
+
+.skill-2{
+  padding: 40px;
+  border-radius: 16px;
+  background: #0353f40d;
+}
+
+.skill-3{
+  padding: 40px;
+  border-radius: 16px;
+  background: #ffdf000d
+}
+
+
+.skill-btn{
+  border: #e233070d;
+  background-color:rgb(255, 240, 240);
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+/* Support section styles */
+
+.supports{
+  width: 1140px;
+  height: 314px;
+  left: 150px;
+  right: 150px;
+  top: 4752px;
+  bottom: 179px;
+}
+
+.support{
+  background-image: url("../assets/handshake.jpg");
+  /* position: absolute; */
+  
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 48px 64px 48px;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+
