@@ -27,7 +27,7 @@
   nav{
     display: flex;
     justify-content: space-around;
-    margin: 50px 50px;
+    margin: 35px 35px;
   }
 
   .nav-title{
@@ -69,7 +69,7 @@ nav li a {
   }
 
 .btn-primary{
-  background-color: #f56804;
+    background-color: #f56804;
     font-weight: bold;
     font-size: 20px;
     color: white;
@@ -144,8 +144,34 @@ main section{
 
 .container-part-1{
   display: flex;
+  justify-content: space-between;
   column-gap: 100px;
   margin-top: 48px;
+}
+
+.container-part-2{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 100px;
+  margin-top: 48px;
+}
+
+.container-part-3{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 100px;
+  margin-top: 48px;
+}
+
+p{
+  margin-bottom: 20px;
+}
+.containet-btn{
+  padding: 5px 10px;
+  background-color: #FFFFFF;
+  color: #0D1321;
+  border: 1px solid #0D1321;
+  text-decoration: none;
 }
 
 .container button{
@@ -177,7 +203,7 @@ main section{
 
 iframe{
   border-radius: 16px;
-  border-width: 5px;
+  /* border-width: 0; */
 }
 
 /* .video{
@@ -209,18 +235,24 @@ iframe{
   padding: 40px;
   border-radius: 16px;
   background: #e233070d;
+  width: 2000px;
+  height: 330px;
 }
 
 .skill-2{
   padding: 40px;
   border-radius: 16px;
   background: #0353f40d;
+  width: 2000px;
+  height: 330px;
 }
 
 .skill-3{
   padding: 40px;
   border-radius: 16px;
-  background: #ffdf000d
+  background: #ffdf000d;
+  width: 2000px;
+  height: 330px;
 }
 
 
@@ -230,7 +262,7 @@ iframe{
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 19px;
   letter-spacing: 0%;
   text-align: left;
@@ -250,7 +282,9 @@ iframe{
 
 .support{
   background-image: url("../assets/handshake.jpg");
-  /* position: absolute; */
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
   
   height: 200px;
   display: flex;
@@ -286,8 +320,8 @@ iframe{
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0%
-  
+  letter-spacing: 0%;
+  opacity: 0.7;
 }
 
 .submit-file{
