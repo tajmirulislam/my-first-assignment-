@@ -262,3 +262,40 @@ iframe{
   background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
 }
 
+.text-file{
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  height: 50px;
+  width: 600px;
+}
+
+.sp-text{
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+
+.spd-text{
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%
+}
+
+.submit-file{
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  height: 50px;
+  width: 150px;
+}
+
+
