@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+  }
+
+  /* Share Styles */
+
+  .text-center{
+    text-align: center;
+  }
+
+  /* Header */
+
+  nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 50px;
+  }
+
+  .nav-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-right: 50px;
+  }
+
+  nav ul {
+    display: flex;
+    /* align-items: center; */
+}
+
+/* list item এর ডট কে মুছে ফেলে - list-style: none; */
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+/* anchor Tag এর নিচের লাইন কে মুছে ফেলে - text-decoration: none;*/
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+  /* Button Styles */
+
+  .btn-style{
+    background-color: #f4f0ed;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(5, 0, 0);
+    padding: 15px 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 50px;
+  }
+
+.btn-primary{
+  background-color: #f56804;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+
+ 
+/* Banner Section Start */
+
+.banner{
+  background-image: url("../assets/Hero-bg.png");
+  background-position: top left, bottom right;
+  /* position: absolute; */
+  width: 100%;
+  height: 652px;
+  margin-bottom: 50px;
+
+}
+
+.banner-content{
+  text-align: center;
+  margin: 0, 0, 50px 50px;
+
+}
+
+.banner-img{
+  margin: 26px 32px;
+}
+
+h1{
+  font-weight: 900;
+  font-size: 48px;
+  margin-bottom: 24px;
+
+}
+
+p{
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+/* Main Section Styles */
+
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+  
+}
+
+
+.web-container{
+  margin-top: 48PX;
+}
+
+.container-part{
+  margin-top: 80px;
+}
+
+.container-part-1{
+  display: flex;
+  column-gap: 100px;
+  margin-top: 48px;
+}
+
+.container button{
+  font-size: 15px;
+  height: 40px;
+  width: 100px;
+}
